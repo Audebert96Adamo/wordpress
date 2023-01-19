@@ -1,0 +1,193 @@
+0000.002 (0) Opened log file at time: Sat, 07 Jan 2023 14:44:22 +0000 on http://localhost:8080/wordpress
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.24 WP: 6.1.1 PHP: 8.1.12 (apache2handler, Windows NT ADAMO 10.0 build 22000 (Windows 11) AMD64) MySQL: 10.4.27-MariaDB (max packet size=1048576) WPLANG: fr_FR Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.1.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 69.1M | 70M) multisite: N openssl: OpenSSL 1.1.1q  5 Jul 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.015 (0) Free space on disk containing Updraft's temporary directory: 43913.7 MB
+0000.026 (0) Tasks: Backup files: 1 (schedule: every4hours) Backup DB:  (schedule: every4hours)
+0000.036 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.071 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1673044068, seconds_ago=58594)
+0000.088 (0) Set semaphore last lock (fd) time to 2023-01-07 14:44:22
+0000.097 (0) Semaphore lock (fd) complete
+0000.135 (0) Backup run: resumption=0, nonce=87ac58904ee9, file_nonce=87ac58904ee9 begun at=1673102662 (0s ago), job type=backup
+0000.150 (0) Scheduling a resumption (1) after 300 seconds (1673102962) in case this run gets aborted
+0000.322 (0) Checking if we have a zip executable available
+0000.329 (0) Creation of backups of directories: beginning
+0000.351 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0005.399 (0) Total entities for the zip file: 1569 directories, 7596 files (0 skipped as non-modified), 95.1 MB
+0005.413 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0005.603 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 100 files added (on-disk size: 286.7 KB)
+0005.679 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 200 files added (on-disk size: 286.7 KB)
+0005.750 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 300 files added (on-disk size: 286.7 KB)
+0005.828 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 400 files added (on-disk size: 286.7 KB)
+0005.904 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 500 files added (on-disk size: 286.7 KB)
+0005.985 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 600 files added (on-disk size: 286.7 KB)
+0006.062 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 700 files added (on-disk size: 286.7 KB)
+0006.144 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 800 files added (on-disk size: 286.7 KB)
+0006.223 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 900 files added (on-disk size: 286.7 KB)
+0006.301 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 1000 files added (on-disk size: 286.7 KB)
+0006.310 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4.6 MB, 7596 files batched, 1001 (1002) added so far); re-opening (prior size: 286.7 KB)
+0012.366 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 1100 files added (on-disk size: 2216.7 KB)
+0012.438 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 1200 files added (on-disk size: 2216.7 KB)
+0012.509 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 1300 files added (on-disk size: 2216.7 KB)
+0012.583 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 1400 files added (on-disk size: 2216.7 KB)
+0012.655 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 1500 files added (on-disk size: 2216.7 KB)
+0012.725 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 1600 files added (on-disk size: 2216.7 KB)
+0012.794 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 1700 files added (on-disk size: 2216.7 KB)
+0012.871 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 1800 files added (on-disk size: 2216.7 KB)
+0012.949 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 1900 files added (on-disk size: 2216.7 KB)
+0013.016 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 2000 files added (on-disk size: 2216.7 KB)
+0013.028 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (3.6 MB, 7596 files batched, 1001 (2003) added so far); re-opening (prior size: 2216.7 KB)
+0016.445 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 2100 files added (on-disk size: 3540.5 KB)
+0016.516 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 2200 files added (on-disk size: 3540.5 KB)
+0016.589 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 2300 files added (on-disk size: 3540.5 KB)
+0016.657 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 2400 files added (on-disk size: 3540.5 KB)
+0016.726 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 2500 files added (on-disk size: 3540.5 KB)
+0016.792 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 2600 files added (on-disk size: 3540.5 KB)
+0016.860 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 2700 files added (on-disk size: 3540.5 KB)
+0016.929 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 2800 files added (on-disk size: 3540.5 KB)
+0017.001 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 7596 files batched, 896 (2899) added so far); re-opening (prior size: 3540.5 KB)
+0019.366 (0) A useful amount of data was added after this amount of zip processing: 3.6 s (normalised: 3.6 s, rate: 7157.8 KB/s)
+0019.381 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.5766670703888, normalised_time=3.5765345930065, max_time=19.373468875885, data points known=1, old_max_bytes=26214400, new_max_bytes=85199320)
+0019.451 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 2900 files added (on-disk size: 10700.1 KB)
+0019.532 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 3000 files added (on-disk size: 10700.1 KB)
+0019.615 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 3100 files added (on-disk size: 10700.1 KB)
+0019.701 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 3200 files added (on-disk size: 10700.1 KB)
+0019.778 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 3300 files added (on-disk size: 10700.1 KB)
+0019.856 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 3400 files added (on-disk size: 10700.1 KB)
+0019.935 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 3500 files added (on-disk size: 10700.1 KB)
+0020.017 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 3600 files added (on-disk size: 10700.1 KB)
+0020.098 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 3700 files added (on-disk size: 10700.1 KB)
+0020.180 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 3800 files added (on-disk size: 10700.1 KB)
+0020.255 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (22.4 MB, 7596 files batched, 1001 (3900) added so far); re-opening (prior size: 10700.1 KB)
+0034.446 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 3900 files added (on-disk size: 17283.9 KB)
+0034.586 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 4000 files added (on-disk size: 17283.9 KB)
+0034.657 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 4100 files added (on-disk size: 17283.9 KB)
+0034.727 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 4200 files added (on-disk size: 17283.9 KB)
+0034.806 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 4300 files added (on-disk size: 17283.9 KB)
+0034.880 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 4400 files added (on-disk size: 17283.9 KB)
+0034.969 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 4500 files added (on-disk size: 17283.9 KB)
+0035.049 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 4600 files added (on-disk size: 17283.9 KB)
+0035.117 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 4700 files added (on-disk size: 17283.9 KB)
+0035.192 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 4800 files added (on-disk size: 17283.9 KB)
+0035.268 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 4900 files added (on-disk size: 17283.9 KB)
+0035.280 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.9 MB, 7596 files batched, 1001 (4901) added so far); re-opening (prior size: 17283.9 KB)
+0047.913 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 5000 files added (on-disk size: 20867 KB)
+0047.979 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 5100 files added (on-disk size: 20867 KB)
+0048.062 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 5200 files added (on-disk size: 20867 KB)
+0048.133 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 5300 files added (on-disk size: 20867 KB)
+0048.204 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 5400 files added (on-disk size: 20867 KB)
+0048.286 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 5500 files added (on-disk size: 20867 KB)
+0048.356 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 5600 files added (on-disk size: 20867 KB)
+0048.428 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 5700 files added (on-disk size: 20867 KB)
+0048.500 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 5800 files added (on-disk size: 20867 KB)
+0048.575 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 5900 files added (on-disk size: 20867 KB)
+0048.582 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (7.4 MB, 7596 files batched, 1001 (5902) added so far); re-opening (prior size: 20867 KB)
+0057.657 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 6000 files added (on-disk size: 23753.2 KB)
+0057.753 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 6100 files added (on-disk size: 23753.2 KB)
+0057.853 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 6200 files added (on-disk size: 23753.2 KB)
+0057.952 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 6300 files added (on-disk size: 23753.2 KB)
+0058.047 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 6400 files added (on-disk size: 23753.2 KB)
+0058.138 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 6500 files added (on-disk size: 23753.2 KB)
+0058.230 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 6600 files added (on-disk size: 23753.2 KB)
+0058.323 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 6700 files added (on-disk size: 23753.2 KB)
+0058.416 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 6800 files added (on-disk size: 23753.2 KB)
+0058.514 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 6900 files added (on-disk size: 23753.2 KB)
+0058.523 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12.2 MB, 7596 files batched, 1001 (6903) added so far); re-opening (prior size: 23753.2 KB)
+0070.179 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 7000 files added (on-disk size: 28791.9 KB)
+0070.277 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 7100 files added (on-disk size: 28791.9 KB)
+0070.375 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 7200 files added (on-disk size: 28791.9 KB)
+0070.473 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 7300 files added (on-disk size: 28791.9 KB)
+0070.568 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 7400 files added (on-disk size: 28791.9 KB)
+0070.661 (0) Zip: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.tmp: 7500 files added (on-disk size: 28791.9 KB)
+0083.214 (0) Creating zip file manifest (backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip.list-temp.tmp)
+0083.274 (0) Successfully created zip file manifest (size: 651396)
+0083.692 (0) Created plugins zip (0) - 31532.3 KB in 83.3 s (378.4 KB/s) (sha1: 0da145af7e946e398bf9f05660de082be6714e5a, sha256: ce142b541d524aad5988df456cf7b76139ffbad0a55d406a8a36f1fa99effa82)
+0083.722 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0083.733 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f74608114f4e709532dd4086bb6df7ba)
+0083.740 (0) PHP event: code E_DEPRECATED: Return type of Requests_Cookie_Jar::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 63, C:\xampp\htdocs\wordpress\wp-includes\Requests\Cookie\Jar.php)
+0083.747 (0) PHP event: code E_DEPRECATED: Return type of Requests_Cookie_Jar::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 73, C:\xampp\htdocs\wordpress\wp-includes\Requests\Cookie\Jar.php)
+0083.748 (0) PHP event: code E_DEPRECATED: Return type of Requests_Cookie_Jar::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 89, C:\xampp\htdocs\wordpress\wp-includes\Requests\Cookie\Jar.php)
+0083.757 (0) PHP event: code E_DEPRECATED: Return type of Requests_Cookie_Jar::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 102, C:\xampp\htdocs\wordpress\wp-includes\Requests\Cookie\Jar.php)
+0083.758 (0) PHP event: code E_DEPRECATED: Return type of Requests_Cookie_Jar::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 111, C:\xampp\htdocs\wordpress\wp-includes\Requests\Cookie\Jar.php)
+0083.775 (0) PHP event: code E_DEPRECATED: http_build_query(): Passing null to parameter #2 ($numeric_prefix) of type string is deprecated (line 345, C:\xampp\htdocs\wordpress\wp-includes\Requests\Transport\cURL.php)
+0085.607 (0) PHP event: code E_DEPRECATED: Return type of Requests_Utility_CaseInsensitiveDictionary::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 40, C:\xampp\htdocs\wordpress\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php)
+0085.614 (0) PHP event: code E_DEPRECATED: Return type of Requests_Utility_CaseInsensitiveDictionary::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 51, C:\xampp\htdocs\wordpress\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php)
+0085.615 (0) PHP event: code E_DEPRECATED: Return type of Requests_Utility_CaseInsensitiveDictionary::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 68, C:\xampp\htdocs\wordpress\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php)
+0085.625 (0) PHP event: code E_DEPRECATED: Return type of Requests_Utility_CaseInsensitiveDictionary::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 82, C:\xampp\htdocs\wordpress\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php)
+0085.626 (0) PHP event: code E_DEPRECATED: Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 91, C:\xampp\htdocs\wordpress\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php)
+0090.383 (0) Google Drive: quota usage: used=127.8 MB, total=15360 MB, available=15232.2 MB
+0090.391 (0) Google Drive: backup_2023-01-07-1544_Mon_agence_de_voyage_87ac58904ee9-plugins.zip: Attempting to upload to Google Drive (into folder id: 1C7iLXWRczgnyat43i5ZbntuU-jxLUaUH)
+0109.287 (0) Googledrive chunked upload: 3.2 % uploaded (1048576)
+0119.737 (0) Googledrive chunked upload: 6.5 % uploaded (2097152)
+0134.562 (0) Googledrive chunked upload: 9.7 % uploaded (3145728)
+0151.974 (0) Googledrive chunked upload: 13 % uploaded (4194304)
+0191.319 (0) Googledrive chunked upload: 16.2 % uploaded (5242880)
+0214.166 (0) Googledrive chunked upload: 19.5 % uploaded (6291456)
+0234.589 (0) Googledrive chunked upload: 22.7 % uploaded (7340032)
+0255.676 (0) The scheduled resumption is within 45 seconds - will reschedule
+0255.684 (0) Rescheduling resumption 1: moving to 345 seconds from now (1673103262)
+0255.698 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0255.702 (0) Googledrive chunked upload: 26 % uploaded (8388608)
+0279.520 (0) Googledrive chunked upload: 29.2 % uploaded (9437184)
+0313.363 (0) Googledrive chunked upload: 32.5 % uploaded (10485760)
+0350.539 (0) The time we have been running (350.5) is approaching the resumption interval (345) - increasing resumption interval to 381
+0350.550 (0) Googledrive chunked upload: 35.7 % uploaded (11534336)
+0375.030 (0) The time we have been running (375) is approaching the resumption interval (381) - increasing resumption interval to 406
+0375.043 (0) Googledrive chunked upload: 39 % uploaded (12582912)
+0399.033 (0) The time we have been running (399) is approaching the resumption interval (406) - increasing resumption interval to 430
+0399.042 (0) Googledrive chunked upload: 42.2 % uploaded (13631488)
+0428.288 (0) The time we have been running (428.3) is approaching the resumption interval (430) - increasing resumption interval to 459
+0428.296 (0) Googledrive chunked upload: 45.5 % uploaded (14680064)
+0451.029 (0) The time we have been running (451) is approaching the resumption interval (459) - increasing resumption interval to 482
+0451.037 (0) Googledrive chunked upload: 48.7 % uploaded (15728640)
+0511.069 (0) Google Drive: ERROR: upload exception (UDP_Google_IO_Exception): Operation timed out after 60004 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0534.709 (0) The time we have been running (534.7) is approaching the resumption interval (482) - increasing resumption interval to 565
+0534.719 (0) Googledrive chunked upload: 3.2 % uploaded (1048576)
+0553.438 (0) The time we have been running (553.4) is approaching the resumption interval (565) - increasing resumption interval to 584
+0553.457 (0) Googledrive chunked upload: 6.5 % uploaded (2097152)
+0566.449 (0) The time we have been running (566.4) is approaching the resumption interval (584) - increasing resumption interval to 597
+0566.456 (0) The scheduled resumption is within 45 seconds - will reschedule
+0566.468 (0) Rescheduling resumption 1: moving to 642 seconds from now (1673103870)
+0566.482 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 597 + 45 = 642
+0566.485 (0) Googledrive chunked upload: 9.7 % uploaded (3145728)
+0577.493 (0) Googledrive chunked upload: 13 % uploaded (4194304)
+0616.482 (0) The time we have been running (616.5) is approaching the resumption interval (642) - increasing resumption interval to 647
+0616.491 (0) Googledrive chunked upload: 16.2 % uploaded (5242880)
+0640.650 (0) The time we have been running (640.6) is approaching the resumption interval (647) - increasing resumption interval to 671
+0640.660 (0) Googledrive chunked upload: 19.5 % uploaded (6291456)
+0672.596 (0) The time we have been running (672.6) is approaching the resumption interval (671) - increasing resumption interval to 703
+0672.603 (0) Googledrive chunked upload: 22.7 % uploaded (7340032)
+0702.118 (0) The time we have been running (702.1) is approaching the resumption interval (703) - increasing resumption interval to 733
+0702.130 (0) Googledrive chunked upload: 26 % uploaded (8388608)
+0713.532 (0) The time we have been running (713.5) is approaching the resumption interval (733) - increasing resumption interval to 744
+0713.539 (0) Googledrive chunked upload: 29.2 % uploaded (9437184)
+0727.166 (0) The time we have been running (727.1) is approaching the resumption interval (744) - increasing resumption interval to 758
+0727.174 (0) Googledrive chunked upload: 32.5 % uploaded (10485760)
+0740.899 (0) The time we have been running (740.9) is approaching the resumption interval (758) - increasing resumption interval to 771
+0740.908 (0) Googledrive chunked upload: 35.7 % uploaded (11534336)
+0775.246 (0) The time we have been running (775.2) is approaching the resumption interval (771) - increasing resumption interval to 806
+0775.257 (0) Googledrive chunked upload: 39 % uploaded (12582912)
+0781.485 (0) The time we have been running (781.5) is approaching the resumption interval (806) - increasing resumption interval to 812
+0781.496 (0) Googledrive chunked upload: 42.2 % uploaded (13631488)
+0802.886 (0) The time we have been running (802.9) is approaching the resumption interval (812) - increasing resumption interval to 833
+0802.895 (0) Googledrive chunked upload: 45.5 % uploaded (14680064)
+0816.838 (0) The time we have been running (816.8) is approaching the resumption interval (833) - increasing resumption interval to 847
+0816.848 (0) Googledrive chunked upload: 48.7 % uploaded (15728640)
+0835.668 (0) The time we have been running (835.7) is approaching the resumption interval (847) - increasing resumption interval to 866
+0835.680 (0) Googledrive chunked upload: 52 % uploaded (16777216)
+0842.665 (0) The time we have been running (842.7) is approaching the resumption interval (866) - increasing resumption interval to 873
+0842.674 (0) Googledrive chunked upload: 55.2 % uploaded (17825792)
+0849.018 (0) The time we have been running (849) is approaching the resumption interval (873) - increasing resumption interval to 880
+0849.025 (0) Googledrive chunked upload: 58.5 % uploaded (18874368)
+0862.351 (0) The time we have been running (862.3) is approaching the resumption interval (880) - increasing resumption interval to 893
+0862.363 (0) Googledrive chunked upload: 61.7 % uploaded (19922944)
+0881.134 (0) The time we have been running (881.1) is approaching the resumption interval (893) - increasing resumption interval to 912
+0881.144 (0) Googledrive chunked upload: 64.9 % uploaded (20971520)
+0896.194 (0) The time we have been running (896.2) is approaching the resumption interval (912) - increasing resumption interval to 927
+0896.204 (0) Googledrive chunked upload: 68.2 % uploaded (22020096)
+0908.363 (0) The time we have been running (908.4) is approaching the resumption interval (927) - increasing resumption interval to 939
+0908.372 (0) Googledrive chunked upload: 71.4 % uploaded (23068672)
+0923.777 (0) The time we have been running (923.8) is approaching the resumption interval (939) - increasing resumption interval to 954
+0923.784 (0) Googledrive chunked upload: 74.7 % uploaded (24117248)
+0929.709 (0) The time we have been running (929.7) is approaching the resumption interval (954) - increasing resumption interval to 960
+0929.716 (0) Googledrive chunked upload: 77.9 % uploaded (25165824)
+0956.823 (0) The time we have been running (956.8) is approaching the resumption interval (960) - increasing resumption interval to 987
+0956.831 (0) Googledrive chunked upload: 81.2 % uploaded (26214400)
