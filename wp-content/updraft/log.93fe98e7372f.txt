@@ -1,0 +1,539 @@
+0000.001 (0) Opened log file at time: Fri, 20 Jan 2023 10:28:34 +0000 on http://localhost:8080/wordpress
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.24 WP: 6.1.1 PHP: 8.1.12 (apache2handler, Windows NT ADAMO 10.0 build 22000 (Windows 11) AMD64) MySQL: 10.4.27-MariaDB (max packet size=1048576) WPLANG: fr_FR Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.1.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 69.7M | 76M) multisite: N openssl: OpenSSL 1.1.1q  5 Jul 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.009 (0) Free space on disk containing Updraft's temporary directory: 42001.2 MB
+0000.018 (0) Tasks: Backup files: 1 (schedule: every4hours) Backup DB:  (schedule: every4hours)
+0000.021 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.032 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1674209430, seconds_ago=1084)
+0000.048 (0) Set semaphore last lock (fd) time to 2023-01-20 10:28:34
+0000.052 (0) Semaphore lock (fd) complete
+0000.075 (0) Backup run: resumption=0, nonce=93fe98e7372f, file_nonce=93fe98e7372f begun at=1674210514 (0s ago), job type=backup
+0000.081 (0) Scheduling a resumption (1) after 600 seconds (1674211114) in case this run gets aborted
+0000.101 (0) Checking if we have a zip executable available
+0000.112 (0) Creation of backups of directories: beginning
+0000.130 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0004.537 (0) Total entities for the zip file: 1460 directories, 7509 files (0 skipped as non-modified), 97 MB
+0004.563 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0004.771 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 100 files added (on-disk size: 261.1 KB)
+0004.860 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 200 files added (on-disk size: 261.1 KB)
+0004.949 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 300 files added (on-disk size: 261.1 KB)
+0005.035 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 400 files added (on-disk size: 261.1 KB)
+0005.126 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 500 files added (on-disk size: 261.1 KB)
+0005.216 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 600 files added (on-disk size: 261.1 KB)
+0005.310 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 700 files added (on-disk size: 261.1 KB)
+0005.401 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 800 files added (on-disk size: 261.1 KB)
+0005.500 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 900 files added (on-disk size: 261.1 KB)
+0005.595 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 1000 files added (on-disk size: 261.1 KB)
+0005.603 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4.6 MB, 7509 files batched, 1001 (1002) added so far); re-opening (prior size: 261.1 KB)
+0006.808 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 1100 files added (on-disk size: 2191 KB)
+0006.899 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 1200 files added (on-disk size: 2191 KB)
+0006.990 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 1300 files added (on-disk size: 2191 KB)
+0007.079 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 1400 files added (on-disk size: 2191 KB)
+0007.165 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 1500 files added (on-disk size: 2191 KB)
+0007.253 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 1600 files added (on-disk size: 2191 KB)
+0007.339 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 1700 files added (on-disk size: 2191 KB)
+0007.430 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 1800 files added (on-disk size: 2191 KB)
+0007.526 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 1900 files added (on-disk size: 2191 KB)
+0007.591 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 7509 files batched, 968 (1970) added so far); re-opening (prior size: 2191 KB)
+0010.293 (0) A useful amount of data was added after this amount of zip processing: 4 s (normalised: 4 s, rate: 6352.6 KB/s)
+0010.302 (0) Performance is good - will increase the amount of data we attempt to batch (time=4.0474209785461, normalised_time=4.029875285503, max_time=10.295725822449, data points known=1, old_max_bytes=26214400, new_max_bytes=40184311)
+0010.378 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 2000 files added (on-disk size: 9437.4 KB)
+0010.465 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 2100 files added (on-disk size: 9437.4 KB)
+0010.553 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 2200 files added (on-disk size: 9437.4 KB)
+0010.636 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 2300 files added (on-disk size: 9437.4 KB)
+0010.725 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 2400 files added (on-disk size: 9437.4 KB)
+0010.844 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 2500 files added (on-disk size: 9437.4 KB)
+0010.940 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 2600 files added (on-disk size: 9437.4 KB)
+0011.030 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 2700 files added (on-disk size: 9437.4 KB)
+0011.122 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 2800 files added (on-disk size: 9437.4 KB)
+0011.209 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 2900 files added (on-disk size: 9437.4 KB)
+0011.272 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (22.9 MB, 7509 files batched, 1001 (2971) added so far); re-opening (prior size: 9437.4 KB)
+0014.167 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 3000 files added (on-disk size: 16069.3 KB)
+0014.251 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 3100 files added (on-disk size: 16069.3 KB)
+0014.340 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 3200 files added (on-disk size: 16069.3 KB)
+0014.430 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 3300 files added (on-disk size: 16069.3 KB)
+0014.519 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 3400 files added (on-disk size: 16069.3 KB)
+0014.618 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 3500 files added (on-disk size: 16069.3 KB)
+0014.712 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 3600 files added (on-disk size: 16069.3 KB)
+0014.809 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 3700 files added (on-disk size: 16069.3 KB)
+0014.898 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 3800 files added (on-disk size: 16069.3 KB)
+0014.997 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 3900 files added (on-disk size: 16069.3 KB)
+0015.066 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6 MB, 7509 files batched, 1001 (3972) added so far); re-opening (prior size: 16069.3 KB)
+0016.543 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 4000 files added (on-disk size: 18041.2 KB)
+0016.628 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 4100 files added (on-disk size: 18041.2 KB)
+0016.714 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 4200 files added (on-disk size: 18041.2 KB)
+0016.802 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 4300 files added (on-disk size: 18041.2 KB)
+0016.901 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 4400 files added (on-disk size: 18041.2 KB)
+0016.988 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 4500 files added (on-disk size: 18041.2 KB)
+0017.075 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 4600 files added (on-disk size: 18041.2 KB)
+0017.166 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 4700 files added (on-disk size: 18041.2 KB)
+0017.255 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 4800 files added (on-disk size: 18041.2 KB)
+0017.355 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 4900 files added (on-disk size: 18041.2 KB)
+0017.422 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.1 MB, 7509 files batched, 1001 (4973) added so far); re-opening (prior size: 18041.2 KB)
+0019.528 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 5000 files added (on-disk size: 21370.6 KB)
+0019.617 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 5100 files added (on-disk size: 21370.6 KB)
+0019.707 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 5200 files added (on-disk size: 21370.6 KB)
+0019.813 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 5300 files added (on-disk size: 21370.6 KB)
+0019.909 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 5400 files added (on-disk size: 21370.6 KB)
+0019.998 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 5500 files added (on-disk size: 21370.6 KB)
+0020.084 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 5600 files added (on-disk size: 21370.6 KB)
+0020.171 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 5700 files added (on-disk size: 21370.6 KB)
+0020.260 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 5800 files added (on-disk size: 21370.6 KB)
+0020.348 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 5900 files added (on-disk size: 21370.6 KB)
+0020.404 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (7.8 MB, 7509 files batched, 1001 (5974) added so far); re-opening (prior size: 21370.6 KB)
+0021.919 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 6000 files added (on-disk size: 24380.9 KB)
+0022.008 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 6100 files added (on-disk size: 24380.9 KB)
+0022.093 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 6200 files added (on-disk size: 24380.9 KB)
+0022.182 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 6300 files added (on-disk size: 24380.9 KB)
+0022.270 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 6400 files added (on-disk size: 24380.9 KB)
+0022.355 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 6500 files added (on-disk size: 24380.9 KB)
+0022.442 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 6600 files added (on-disk size: 24380.9 KB)
+0022.531 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 6700 files added (on-disk size: 24380.9 KB)
+0022.620 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 6800 files added (on-disk size: 24380.9 KB)
+0022.707 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 6900 files added (on-disk size: 24380.9 KB)
+0022.774 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (15.1 MB, 7509 files batched, 1001 (6975) added so far); re-opening (prior size: 24380.9 KB)
+0024.845 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 7000 files added (on-disk size: 30538.6 KB)
+0024.952 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 7100 files added (on-disk size: 30538.6 KB)
+0025.058 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 7200 files added (on-disk size: 30538.6 KB)
+0025.155 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 7300 files added (on-disk size: 30538.6 KB)
+0025.249 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 7400 files added (on-disk size: 30538.6 KB)
+0025.349 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.tmp: 7500 files added (on-disk size: 30538.6 KB)
+0027.469 (0) Creating zip file manifest (backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip.list-temp.tmp)
+0027.522 (0) Successfully created zip file manifest (size: 637531)
+0027.938 (0) Created plugins zip (0) - 31898.4 KB in 27.8 s (1147.7 KB/s) (sha1: c6315e2e2b131afae21b3c3d8180d16091a30d25, sha256: c3466b5a9ff4f332359fa67da2c6a59083d45b1817aaf2fb2f3256f3a31244e4)
+0027.964 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0027.968 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f74608114f4e709532dd4086bb6df7ba)
+0029.747 (0) Google Drive: quota usage: used=261.6 MB, total=15360 MB, available=15098.4 MB
+0029.755 (0) Google Drive: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip: Attempting to upload to Google Drive (into folder id: 1C7iLXWRczgnyat43i5ZbntuU-jxLUaUH)
+0037.917 (0) Googledrive chunked upload: 3.2 % uploaded (1048576)
+0045.361 (0) Googledrive chunked upload: 6.4 % uploaded (2097152)
+0051.770 (0) Googledrive chunked upload: 9.6 % uploaded (3145728)
+0059.044 (0) Googledrive chunked upload: 12.8 % uploaded (4194304)
+0066.910 (0) Googledrive chunked upload: 16.1 % uploaded (5242880)
+0074.482 (0) Googledrive chunked upload: 19.3 % uploaded (6291456)
+0082.137 (0) Googledrive chunked upload: 22.5 % uploaded (7340032)
+0088.748 (0) Googledrive chunked upload: 25.7 % uploaded (8388608)
+0094.786 (0) Googledrive chunked upload: 28.9 % uploaded (9437184)
+0100.774 (0) Googledrive chunked upload: 32.1 % uploaded (10485760)
+0106.792 (0) Googledrive chunked upload: 35.3 % uploaded (11534336)
+0111.724 (0) Googledrive chunked upload: 38.5 % uploaded (12582912)
+0116.910 (0) Googledrive chunked upload: 41.7 % uploaded (13631488)
+0122.381 (0) Googledrive chunked upload: 44.9 % uploaded (14680064)
+0129.153 (0) Googledrive chunked upload: 48.2 % uploaded (15728640)
+0135.247 (0) Googledrive chunked upload: 51.4 % uploaded (16777216)
+0141.251 (0) Googledrive chunked upload: 54.6 % uploaded (17825792)
+0147.118 (0) Googledrive chunked upload: 57.8 % uploaded (18874368)
+0152.787 (0) Googledrive chunked upload: 61 % uploaded (19922944)
+0158.472 (0) Googledrive chunked upload: 64.2 % uploaded (20971520)
+0164.777 (0) Googledrive chunked upload: 67.4 % uploaded (22020096)
+0170.500 (0) Googledrive chunked upload: 70.6 % uploaded (23068672)
+0176.282 (0) Googledrive chunked upload: 73.8 % uploaded (24117248)
+0182.659 (0) Googledrive chunked upload: 77 % uploaded (25165824)
+0190.305 (0) Googledrive chunked upload: 80.3 % uploaded (26214400)
+0197.270 (0) Googledrive chunked upload: 83.5 % uploaded (27262976)
+0202.702 (0) Googledrive chunked upload: 86.7 % uploaded (28311552)
+0208.080 (0) Googledrive chunked upload: 89.9 % uploaded (29360128)
+0213.338 (0) Googledrive chunked upload: 93.1 % uploaded (30408704)
+0219.047 (0) Googledrive chunked upload: 96.3 % uploaded (31457280)
+0225.211 (0) Googledrive chunked upload: 99.5 % uploaded (32505856)
+0227.794 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0227.806 (0) Google Drive: OK: Archive backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip uploaded in 198.05 seconds
+0227.810 (0) Recording as successfully uploaded: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip
+0227.827 (0) Deleting local file: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip: OK
+0227.850 (0) Beginning creation of dump of themes (split every: 400 MB)
+0228.876 (0) Total entities for the zip file: 387 directories, 1107 files (0 skipped as non-modified), 37.7 MB
+0229.001 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0229.098 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0229.198 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0229.304 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0229.406 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0229.502 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0229.600 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0229.693 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0229.788 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0229.881 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0229.895 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (35.6 MB, 1107 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0233.268 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-themes.zip.tmp: 1100 files added (on-disk size: 16380.3 KB)
+0233.504 (0) Creating zip file manifest (backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-themes.zip.list-temp.tmp)
+0233.516 (0) Successfully created zip file manifest (size: 90867)
+0233.844 (0) Created themes zip (0) - 18395.5 KB in 6 s (3081.1 KB/s) (sha1: b2d11bd8b14777e23ed1eaa398177c51b07f55f4, sha256: 6a5bfe59cdcf8f382bdf2a596a88b4de450471a96c87b4d849f7e3dd3458510d)
+0233.858 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0233.863 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f74608114f4e709532dd4086bb6df7ba)
+0234.345 (0) Google Drive: quota usage: used=292.7 MB, total=15360 MB, available=15067.3 MB
+0234.350 (0) Google Drive: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-themes.zip: Attempting to upload to Google Drive (into folder id: 1C7iLXWRczgnyat43i5ZbntuU-jxLUaUH)
+0240.405 (0) Googledrive chunked upload: 5.6 % uploaded (1048576)
+0248.741 (0) Googledrive chunked upload: 11.1 % uploaded (2097152)
+0254.781 (0) Googledrive chunked upload: 16.7 % uploaded (3145728)
+0260.738 (0) Googledrive chunked upload: 22.3 % uploaded (4194304)
+0266.243 (0) Googledrive chunked upload: 27.8 % uploaded (5242880)
+0272.362 (0) Googledrive chunked upload: 33.4 % uploaded (6291456)
+0278.491 (0) Googledrive chunked upload: 39 % uploaded (7340032)
+0284.080 (0) Googledrive chunked upload: 44.5 % uploaded (8388608)
+0292.871 (0) Googledrive chunked upload: 50.1 % uploaded (9437184)
+0298.807 (0) Googledrive chunked upload: 55.7 % uploaded (10485760)
+0305.625 (0) Googledrive chunked upload: 61.2 % uploaded (11534336)
+0311.861 (0) Googledrive chunked upload: 66.8 % uploaded (12582912)
+0317.482 (0) Googledrive chunked upload: 72.4 % uploaded (13631488)
+0323.619 (0) Googledrive chunked upload: 77.9 % uploaded (14680064)
+0332.744 (0) Googledrive chunked upload: 83.5 % uploaded (15728640)
+0338.943 (0) Googledrive chunked upload: 89.1 % uploaded (16777216)
+0345.052 (0) Googledrive chunked upload: 94.6 % uploaded (17825792)
+0352.144 (0) Googledrive chunked upload: 100 % uploaded (17825792)
+0352.156 (0) Google Drive: OK: Archive backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-themes.zip uploaded in 117.8 seconds
+0352.160 (0) Recording as successfully uploaded: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-themes.zip
+0352.171 (0) Deleting local file: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-themes.zip: OK
+0352.189 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0352.194 (0) Looking for candidates to backup in: C:\xampp\htdocs\wordpress/wp-content/uploads
+0352.200 (0) finding files: 2023: adding to list (1)
+0352.203 (0) finding files: elementor: adding to list (2)
+0352.208 (0) finding files: ithemes-security: adding to list (3)
+0352.213 (0) finding files: wpforms: adding to list (4)
+0352.219 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0352.254 (0) Total entities for the zip file: 9 directories, 22 files (0 skipped as non-modified), 4.6 MB
+0352.362 (0) Creating zip file manifest (backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-uploads.zip.list-temp.tmp)
+0352.368 (0) Successfully created zip file manifest (size: 991)
+0352.443 (0) Created uploads zip (0) - 4392.4 KB in 0.2 s (20901.1 KB/s) (sha1: 78f25323a29dcf059e95eb27302d16b3c081ffa9, sha256: c88e6df10965a74920a06a6b29462e3ce4cccc6927d9bf0e93ebba6db7069e29)
+0352.460 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0352.465 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f74608114f4e709532dd4086bb6df7ba)
+0352.920 (0) Google Drive: quota usage: used=310.7 MB, total=15360 MB, available=15049.3 MB
+0352.935 (0) Google Drive: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-uploads.zip: Attempting to upload to Google Drive (into folder id: 1C7iLXWRczgnyat43i5ZbntuU-jxLUaUH)
+0360.013 (0) Googledrive chunked upload: 23.3 % uploaded (1048576)
+0367.132 (0) Googledrive chunked upload: 46.6 % uploaded (2097152)
+0373.695 (0) Googledrive chunked upload: 69.9 % uploaded (3145728)
+0380.371 (0) Googledrive chunked upload: 93.3 % uploaded (4194304)
+0383.658 (0) Googledrive chunked upload: 100 % uploaded (4194304)
+0383.672 (0) Google Drive: OK: Archive backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-uploads.zip uploaded in 30.73 seconds
+0383.676 (0) Recording as successfully uploaded: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-uploads.zip
+0383.685 (0) Deleting local file: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-uploads.zip: OK
+0383.702 (0) Beginning backup of other directories found in the content directory (index: 0)
+0383.706 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0383.709 (0) Looking for candidates to backup in: C:\xampp\htdocs\wordpress/wp-content
+0383.713 (0) finding files: index.php: adding to list (1)
+0383.716 (0) finding files: languages: adding to list (2)
+0383.719 (0) finding files: plugins: skipping: this is the plugins directory
+0383.722 (0) finding files: themes: skipping: this is the themes directory
+0383.725 (0) finding files: updraft: skipping: this is the updraft directory
+0383.729 (0) finding files: upgrade: skipping: excluded by options
+0383.734 (0) finding files: uploads: skipping: this is the uploads directory
+0383.879 (0) Total entities for the zip file: 3 directories, 252 files (0 skipped as non-modified), 6.1 MB
+0383.996 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0384.100 (0) Zip: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0385.007 (0) Creating zip file manifest (backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-others.zip.list-temp.tmp)
+0385.016 (0) Successfully created zip file manifest (size: 19709)
+0385.063 (0) Created others zip (0) - 1785.1 KB in 1.3 s (1357.2 KB/s) (sha1: b84c8c02eb9e584bdd624b4edb0b0b81505cea4f, sha256: 97e55d3942849652e37ff00fd1045582fef4481698b0a7559fa2e3f2e7f1acb4)
+0385.078 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0385.084 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f74608114f4e709532dd4086bb6df7ba)
+0385.586 (0) Google Drive: quota usage: used=315 MB, total=15360 MB, available=15045 MB
+0385.602 (0) Google Drive: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-others.zip: Attempting to upload to Google Drive (into folder id: 1C7iLXWRczgnyat43i5ZbntuU-jxLUaUH)
+0392.367 (0) Googledrive chunked upload: 57.4 % uploaded (1048576)
+0400.040 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0400.055 (0) Google Drive: OK: Archive backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-others.zip uploaded in 14.44 seconds
+0400.060 (0) Recording as successfully uploaded: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-others.zip
+0400.072 (0) Deleting local file: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-others.zip: OK
+0400.099 (0) Saving backup status to database (elements: 8)
+0400.109 (0) Beginning creation of database dump (WordPress DB)
+0400.113 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0400.191 (0) Table wp_options: Total expected rows (via COUNT): 326
+0400.195 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0400.288 (0) Table wp_options: Rows added in this batch (next record: 9657): 322 (uncompressed bytes in this segment=1949332) in 0.14 seconds
+0400.318 (0) Table wp_options: finishing file(s) (2, 343.2 KB)
+0400.348 (0) Table wp_users: Total expected rows (via COUNT): 2
+0400.359 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0400.367 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1362) in 0.04 seconds
+0400.388 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0400.414 (0) Table wp_usermeta: Total expected rows (via COUNT): 83
+0400.420 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0400.433 (0) Table wp_usermeta: Rows added in this batch (next record: 93): 83 (uncompressed bytes in this segment=8391) in 0.03 seconds
+0400.459 (0) Table wp_usermeta: finishing file(s) (2, 3 KB)
+0400.484 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 38
+0400.488 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0400.497 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 137): 38 (uncompressed bytes in this segment=15384) in 0.03 seconds
+0400.526 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.9 KB)
+0400.548 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0400.559 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=626) in 0.02 seconds
+0400.581 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0400.602 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 3
+0400.607 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0400.619 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=697) in 0.02 seconds
+0400.641 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0400.659 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 102
+0400.664 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0400.673 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 102): 102 (uncompressed bytes in this segment=9473) in 0.02 seconds
+0400.695 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 1.5 KB)
+0400.722 (0) Table wp_commentmeta: Total expected rows (via COUNT): 3
+0400.725 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0400.733 (0) Table wp_commentmeta: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1691) in 0.03 seconds
+0400.761 (0) Table wp_commentmeta: finishing file(s) (2, 0.8 KB)
+0400.778 (0) Table wp_comments: Total expected rows (via COUNT): 2
+0400.783 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0400.789 (0) Table wp_comments: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=2313) in 0.02 seconds
+0400.810 (0) Table wp_comments: finishing file(s) (2, 1 KB)
+0400.830 (0) Table wp_itsec_bans: Total expected rows (via COUNT): 0
+0400.839 (0) Table wp_itsec_bans: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=721) in 0.02 seconds
+0400.859 (0) Table wp_itsec_bans: finishing file(s) (2, 0.4 KB)
+0400.877 (0) Table wp_itsec_dashboard_events: Total expected rows (via COUNT): 0
+0400.883 (0) Table wp_itsec_dashboard_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=781) in 0.01 seconds
+0400.904 (0) Table wp_itsec_dashboard_events: finishing file(s) (2, 0.4 KB)
+0400.929 (0) Table wp_itsec_distributed_storage: Total expected rows (via COUNT): 0
+0400.933 (0) Table wp_itsec_distributed_storage: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=820) in 0.02 seconds
+0400.958 (0) Table wp_itsec_distributed_storage: finishing file(s) (2, 0.4 KB)
+0400.981 (0) Table wp_itsec_fingerprints: Total expected rows (via COUNT): 0
+0400.985 (0) Table wp_itsec_fingerprints: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1066) in 0.02 seconds
+0401.010 (0) Table wp_itsec_fingerprints: finishing file(s) (2, 0.5 KB)
+0401.028 (0) Table wp_itsec_geolocation_cache: Total expected rows (via COUNT): 0
+0401.034 (0) Table wp_itsec_geolocation_cache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=844) in 0.01 seconds
+0401.055 (0) Table wp_itsec_geolocation_cache: finishing file(s) (2, 0.4 KB)
+0401.077 (0) Table wp_itsec_lockouts: Total expected rows (via COUNT): 0
+0401.082 (0) Table wp_itsec_lockouts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1096) in 0.01 seconds
+0401.101 (0) Table wp_itsec_lockouts: finishing file(s) (2, 0.4 KB)
+0401.125 (0) Table wp_itsec_logs: Total expected rows (via COUNT): 8
+0401.128 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0401.137 (0) Table wp_itsec_logs: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=3487) in 0.03 seconds
+0401.167 (0) Table wp_itsec_logs: finishing file(s) (2, 1 KB)
+0401.186 (0) Table wp_itsec_mutexes: Total expected rows (via COUNT): 0
+0401.198 (0) Table wp_itsec_mutexes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=586) in 0.02 seconds
+0401.222 (0) Table wp_itsec_mutexes: finishing file(s) (2, 0.4 KB)
+0401.238 (0) Table wp_itsec_opaque_tokens: Total expected rows (approximate): 0
+0401.244 (0) Table wp_itsec_opaque_tokens: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=643) in 0.01 seconds
+0401.265 (0) Table wp_itsec_opaque_tokens: finishing file(s) (2, 0.4 KB)
+0401.290 (0) Table wp_itsec_temp: Total expected rows (via COUNT): 0
+0401.296 (0) Table wp_itsec_temp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=810) in 0.02 seconds
+0401.317 (0) Table wp_itsec_temp: finishing file(s) (2, 0.4 KB)
+0401.334 (0) Table wp_itsec_user_groups: Total expected rows (approximate): 0
+0401.340 (0) Table wp_itsec_user_groups: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=691) in 0.01 seconds
+0401.360 (0) Table wp_itsec_user_groups: finishing file(s) (2, 0.4 KB)
+0401.400 (0) Table wp_links: Total expected rows (via COUNT): 0
+0401.406 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.01 seconds
+0401.434 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0401.472 (0) Table wp_postmeta: Total expected rows (via COUNT): 740
+0401.476 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0401.492 (0) Table wp_postmeta: Rows added in this batch (next record: 985): 740 (uncompressed bytes in this segment=223873) in 0.04 seconds
+0401.521 (0) Table wp_postmeta: finishing file(s) (2, 11 KB)
+0401.566 (0) Table wp_posts: Total expected rows (via COUNT): 291
+0401.570 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0401.596 (0) Table wp_posts: Rows added in this batch (next record: 332): 291 (uncompressed bytes in this segment=742737) in 0.06 seconds
+0401.621 (0) Table wp_posts: finishing file(s) (2, 45.4 KB)
+0401.639 (0) Table wp_term_relationships: Total expected rows (approximate): 18
+0401.649 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 18 (uncompressed bytes in this segment=926) in 0.02 seconds
+0401.671 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0401.699 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 6
+0401.704 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0401.715 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=1016) in 0.03 seconds
+0401.736 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0401.762 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0401.771 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=607) in 0.02 seconds
+0401.797 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0401.815 (0) Table wp_terms: Total expected rows (via COUNT): 6
+0401.820 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0401.831 (0) Table wp_terms: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=875) in 0.02 seconds
+0401.853 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0401.874 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0401.883 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=511) in 0.02 seconds
+0401.901 (0) Table wp_e_events: finishing file(s) (2, 0.3 KB)
+0401.921 (0) Table wp_wp2static_addon_netlify_options: Total expected rows (via COUNT): 2
+0401.926 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0401.935 (0) Table wp_wp2static_addon_netlify_options: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=840) in 0.02 seconds
+0401.958 (0) Table wp_wp2static_addon_netlify_options: finishing file(s) (2, 0.4 KB)
+0401.977 (0) Table wp_wp2static_addons: Total expected rows (approximate): 2
+0401.988 (0) Table wp_wp2static_addons: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=913) in 0.02 seconds
+0402.011 (0) Table wp_wp2static_addons: finishing file(s) (2, 0.5 KB)
+0402.029 (0) Table wp_wp2static_core_options: Total expected rows (via COUNT): 18
+0402.034 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0402.046 (0) Table wp_wp2static_core_options: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=2360) in 0.03 seconds
+0402.067 (0) Table wp_wp2static_core_options: finishing file(s) (2, 0.9 KB)
+0402.086 (0) Table wp_wp2static_crawl_cache: Total expected rows (via COUNT): 0
+0402.095 (0) Table wp_wp2static_crawl_cache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=765) in 0.02 seconds
+0402.115 (0) Table wp_wp2static_crawl_cache: finishing file(s) (2, 0.4 KB)
+0402.133 (0) Table wp_wp2static_deploy_cache: Total expected rows (via COUNT): 0
+0402.139 (0) Table wp_wp2static_deploy_cache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=674) in 0.01 seconds
+0402.160 (0) Table wp_wp2static_deploy_cache: finishing file(s) (2, 0.4 KB)
+0402.177 (0) Table wp_wp2static_jobs: Total expected rows (via COUNT): 0
+0402.182 (0) Table wp_wp2static_jobs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=610) in 0.01 seconds
+0402.202 (0) Table wp_wp2static_jobs: finishing file(s) (2, 0.4 KB)
+0402.223 (0) Table wp_wp2static_log: Total expected rows (via COUNT): 242
+0402.228 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0402.240 (0) Table wp_wp2static_log: Rows added in this batch (next record: 242): 242 (uncompressed bytes in this segment=16319) in 0.03 seconds
+0402.264 (0) Table wp_wp2static_log: finishing file(s) (2, 2.3 KB)
+0402.291 (0) Table wp_wp2static_urls: Total expected rows (approximate): 3553
+0402.339 (0) Table wp_wp2static_urls: Rows added in this batch (next record: 25837): 3541 (uncompressed bytes in this segment=398505) in 0.06 seconds
+0402.359 (0) Table wp_wp2static_urls: finishing file(s) (2, 111.4 KB)
+0402.384 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 3
+0402.389 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0402.401 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=838) in 0.03 seconds
+0402.547 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0402.567 (0) Table wp_wpmailsmtp_debug_events: Total expected rows (via COUNT): 1
+0402.577 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0402.583 (0) Table wp_wpmailsmtp_debug_events: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1797) in 0.02 seconds
+0402.607 (0) Table wp_wpmailsmtp_debug_events: finishing file(s) (2, 0.9 KB)
+0402.636 (0) Table wp_wpmailsmtp_tasks_meta: Total expected rows (via COUNT): 0
+0402.645 (0) Table wp_wpmailsmtp_tasks_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=578) in 0.02 seconds
+0402.677 (0) Table wp_wpmailsmtp_tasks_meta: finishing file(s) (2, 0.4 KB)
+0402.704 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 48
+0402.708 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0402.720 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 61): 48 (uncompressed bytes in this segment=30346) in 0.03 seconds
+0402.751 (0) Table wp_yoast_indexable: finishing file(s) (2, 5 KB)
+0402.771 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 44
+0402.785 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 44 (uncompressed bytes in this segment=1510) in 0.02 seconds
+0402.805 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.5 KB)
+0402.825 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 23
+0402.830 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0402.838 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1209) in 0.02 seconds
+0402.860 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0402.878 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 9
+0402.883 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0402.887 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=1565) in 0.02 seconds
+0402.911 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.6 KB)
+0402.930 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 21
+0402.935 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0402.941 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 28): 21 (uncompressed bytes in this segment=3656) in 0.02 seconds
+0402.964 (0) Table wp_yoast_seo_links: finishing file(s) (2, 0.9 KB)
+0402.969 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\wordpress/wp-content/updraft/backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db.gz (line 1924, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0402.977 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_options.table.tmpr9658.gz (1/44/fopen): adding to final database dump
+0402.997 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_options.table.gz (2/44/fopen): adding to final database dump
+0403.003 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_users.table.tmpr3.gz (3/44/fopen): adding to final database dump
+0403.008 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_users.table.gz (4/44/fopen): adding to final database dump
+0403.013 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_usermeta.table.tmpr94.gz (5/44/fopen): adding to final database dump
+0403.033 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_usermeta.table.gz (6/44/fopen): adding to final database dump
+0403.038 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_actionscheduler_actions.table.tmpr138.gz (7/44/fopen): adding to final database dump
+0403.043 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_actionscheduler_actions.table.gz (8/44/fopen): adding to final database dump
+0403.047 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/44/fopen): adding to final database dump
+0403.052 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_actionscheduler_claims.table.gz (10/44/fopen): adding to final database dump
+0403.057 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_actionscheduler_groups.table.tmpr4.gz (11/44/fopen): adding to final database dump
+0403.060 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_actionscheduler_groups.table.gz (12/44/fopen): adding to final database dump
+0403.063 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_actionscheduler_logs.table.tmpr103.gz (13/44/fopen): adding to final database dump
+0403.067 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_actionscheduler_logs.table.gz (14/44/fopen): adding to final database dump
+0403.071 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_commentmeta.table.tmpr4.gz (15/44/fopen): adding to final database dump
+0403.075 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_commentmeta.table.gz (16/44/fopen): adding to final database dump
+0403.078 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_comments.table.tmpr3.gz (17/44/fopen): adding to final database dump
+0403.082 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_comments.table.gz (18/44/fopen): adding to final database dump
+0403.085 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_itsec_bans.table.tmpr0.gz (19/44/fopen): adding to final database dump
+0403.089 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_itsec_bans.table.gz (20/44/fopen): adding to final database dump
+0403.093 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_itsec_dashboard_events.table.tmpr0.gz (21/44/fopen): adding to final database dump
+0403.098 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_itsec_dashboard_events.table.gz (22/44/fopen): adding to final database dump
+0403.101 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_itsec_distributed_storage.table.tmpr0.gz (23/44/fopen): adding to final database dump
+0403.105 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_itsec_distributed_storage.table.gz (24/44/fopen): adding to final database dump
+0403.109 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_itsec_fingerprints.table.tmpr0.gz (25/44/fopen): adding to final database dump
+0403.126 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_itsec_fingerprints.table.gz (26/44/fopen): adding to final database dump
+0403.134 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_itsec_geolocation_cache.table.tmpr0.gz (27/44/fopen): adding to final database dump
+0403.140 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_itsec_geolocation_cache.table.gz (28/44/fopen): adding to final database dump
+0403.145 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_itsec_lockouts.table.tmpr0.gz (29/44/fopen): adding to final database dump
+0403.165 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_itsec_lockouts.table.gz (30/44/fopen): adding to final database dump
+0403.169 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_itsec_logs.table.tmpr9.gz (31/44/fopen): adding to final database dump
+0403.174 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_itsec_logs.table.gz (32/44/fopen): adding to final database dump
+0403.179 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_itsec_mutexes.table.tmpr0.gz (33/44/fopen): adding to final database dump
+0403.184 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_itsec_mutexes.table.gz (34/44/fopen): adding to final database dump
+0403.187 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_itsec_opaque_tokens.table.tmpr1.gz (35/44/fopen): adding to final database dump
+0403.191 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_itsec_opaque_tokens.table.gz (36/44/fopen): adding to final database dump
+0403.194 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_itsec_temp.table.tmpr0.gz (37/44/fopen): adding to final database dump
+0403.200 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_itsec_temp.table.gz (38/44/fopen): adding to final database dump
+0403.205 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_itsec_user_groups.table.tmpr1.gz (39/44/fopen): adding to final database dump
+0403.210 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_itsec_user_groups.table.gz (40/44/fopen): adding to final database dump
+0403.215 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_links.table.tmpr0.gz (41/44/fopen): adding to final database dump
+0403.219 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_links.table.gz (42/44/fopen): adding to final database dump
+0403.222 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_postmeta.table.tmpr986.gz (43/44/fopen): adding to final database dump
+0403.228 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_postmeta.table.gz (44/44/fopen): adding to final database dump
+0403.234 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_posts.table.tmpr333.gz (45/44/fopen): adding to final database dump
+0403.241 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_posts.table.gz (46/44/fopen): adding to final database dump
+0403.247 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_term_relationships.table.tmpr100001.gz (47/44/fopen): adding to final database dump
+0403.255 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_term_relationships.table.gz (48/44/fopen): adding to final database dump
+0403.267 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_term_taxonomy.table.tmpr7.gz (49/44/fopen): adding to final database dump
+0403.273 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_term_taxonomy.table.gz (50/44/fopen): adding to final database dump
+0403.278 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_termmeta.table.tmpr0.gz (51/44/fopen): adding to final database dump
+0403.298 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_termmeta.table.gz (52/44/fopen): adding to final database dump
+0403.305 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_terms.table.tmpr7.gz (53/44/fopen): adding to final database dump
+0403.309 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_terms.table.gz (54/44/fopen): adding to final database dump
+0403.315 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_e_events.table.tmpr0.gz (55/44/fopen): adding to final database dump
+0403.322 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_e_events.table.gz (56/44/fopen): adding to final database dump
+0403.327 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_wp2static_addon_netlify_options.table.tmpr3.gz (57/44/fopen): adding to final database dump
+0403.333 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_wp2static_addon_netlify_options.table.gz (58/44/fopen): adding to final database dump
+0403.338 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_wp2static_addons.table.tmpr1001.gz (59/44/fopen): adding to final database dump
+0403.343 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_wp2static_addons.table.gz (60/44/fopen): adding to final database dump
+0403.348 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_wp2static_core_options.table.tmpr19.gz (61/44/fopen): adding to final database dump
+0403.353 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_wp2static_core_options.table.gz (62/44/fopen): adding to final database dump
+0403.358 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_wp2static_crawl_cache.table.tmpr0.gz (63/44/fopen): adding to final database dump
+0403.363 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_wp2static_crawl_cache.table.gz (64/44/fopen): adding to final database dump
+0403.368 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_wp2static_deploy_cache.table.tmpr0.gz (65/44/fopen): adding to final database dump
+0403.373 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_wp2static_deploy_cache.table.gz (66/44/fopen): adding to final database dump
+0403.377 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_wp2static_jobs.table.tmpr0.gz (67/44/fopen): adding to final database dump
+0403.382 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_wp2static_jobs.table.gz (68/44/fopen): adding to final database dump
+0403.387 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_wp2static_log.table.tmpr243.gz (69/44/fopen): adding to final database dump
+0403.394 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_wp2static_log.table.gz (70/44/fopen): adding to final database dump
+0403.400 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_wp2static_urls.table.tmpr25838.gz (71/44/fopen): adding to final database dump
+0403.411 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_wp2static_urls.table.gz (72/44/fopen): adding to final database dump
+0403.427 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_wpforms_tasks_meta.table.tmpr4.gz (73/44/fopen): adding to final database dump
+0403.434 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_wpforms_tasks_meta.table.gz (74/44/fopen): adding to final database dump
+0403.437 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_wpmailsmtp_debug_events.table.tmpr2.gz (75/44/fopen): adding to final database dump
+0403.442 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_wpmailsmtp_debug_events.table.gz (76/44/fopen): adding to final database dump
+0403.447 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_wpmailsmtp_tasks_meta.table.tmpr0.gz (77/44/fopen): adding to final database dump
+0403.452 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_wpmailsmtp_tasks_meta.table.gz (78/44/fopen): adding to final database dump
+0403.456 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_yoast_indexable.table.tmpr62.gz (79/44/fopen): adding to final database dump
+0403.462 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_yoast_indexable.table.gz (80/44/fopen): adding to final database dump
+0403.466 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (81/44/fopen): adding to final database dump
+0403.469 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_yoast_indexable_hierarchy.table.gz (82/44/fopen): adding to final database dump
+0403.474 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_yoast_migrations.table.tmpr24.gz (83/44/fopen): adding to final database dump
+0403.479 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_yoast_migrations.table.gz (84/44/fopen): adding to final database dump
+0403.483 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_yoast_primary_term.table.tmpr10.gz (85/44/fopen): adding to final database dump
+0403.486 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_yoast_primary_term.table.gz (86/44/fopen): adding to final database dump
+0403.490 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_yoast_seo_links.table.tmpr29.gz (87/44/fopen): adding to final database dump
+0403.493 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db-table-wp_yoast_seo_links.table.gz (88/44/fopen): adding to final database dump
+0403.539 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db.gz: finished writing out complete database file (542.7 KB)
+0403.681 (0) Total database tables backed up: 44 (backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db.gz, size: 555863, sha1: 9bb0a49a38d418212185ee322a6806e808498b3f, sha256: c162ceec9c8c5e2cfd6f35c648ebd51dd7e48cd0bd0579b5cb56f1e2bbe49a11)
+0403.715 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2864, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0403.725 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-plugins.zip: plugins: This file has already been successfully uploaded
+0403.729 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-themes.zip: themes: This file has already been successfully uploaded
+0403.733 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-uploads.zip: uploads: This file has already been successfully uploaded
+0403.738 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-others.zip: others: This file has already been successfully uploaded
+0403.742 (0) backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db.gz: db: This file has not yet been successfully uploaded: will queue
+0403.747 (0) Saving backup history. Total backup size: 55.7 MB
+0403.754 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0403.770 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0403.775 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f74608114f4e709532dd4086bb6df7ba)
+0404.326 (0) Google Drive: quota usage: used=316.7 MB, total=15360 MB, available=15043.3 MB
+0404.338 (0) Google Drive: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db.gz: Attempting to upload to Google Drive (into folder id: 1C7iLXWRczgnyat43i5ZbntuU-jxLUaUH)
+0411.418 (0) Googledrive chunked upload: 100 % uploaded
+0411.434 (0) Google Drive: OK: Archive backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db.gz uploaded in 7.09 seconds
+0411.439 (0) Recording as successfully uploaded: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db.gz
+0411.449 (0) Deleting local file: backup_2023-01-20-1128_Mon_agence_de_voyage_93fe98e7372f-db.gz: OK
+0411.460 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0411.463 (0) Number of backup sets in history: 3; groups (db): 1
+0411.467 (0) Examining (for databases) backup set with group_id=0, nonce=93fe98e7372f, datestamp=1674210514 (Jan 20 2023 10:28:34)
+0411.472 (0) This backup set is the backup set just made, so will not be deleted.
+0411.472 (0) Examining (for databases) backup set with group_id=0, nonce=2de06e751f22, datestamp=1674209430 (Jan 20 2023 10:10:30)
+0411.473 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0411.477 (0) Examining (for databases) backup set with group_id=0, nonce=a3f29e01a38f, datestamp=1674139553 (Jan 19 2023 14:45:53)
+0411.477 (0) 1674139553: db: this set includes a database (backup_2023-01-19-1545_Mon_agence_de_voyage_a3f29e01a38f-db.gz); db count is now 2
+0411.477 (0) 1674139553: db: over retain limit (2); will delete this database
+0411.478 (0) Delete file: backup_2023-01-19-1545_Mon_agence_de_voyage_a3f29e01a38f-db.gz, service=googledrive
+0413.445 (0) Google Drive: backup_2023-01-19-1545_Mon_agence_de_voyage_a3f29e01a38f-db.gz: Deletion successful
+0413.458 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0413.461 (0) Number of backup sets in history: 3; groups (files): 1
+0413.464 (0) Examining (for files) backup set with nonce=93fe98e7372f, datestamp=1674210514 (Jan 20 2023 10:28:34)
+0413.464 (0) This backup set is the backup set just made, so will not be deleted.
+0413.467 (0) This backup set is the backup set just made, so will not be deleted.
+0413.468 (0) This backup set is the backup set just made, so will not be deleted.
+0413.468 (0) This backup set is the backup set just made, so will not be deleted.
+0413.468 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0413.473 (0) Examining (for files) backup set with nonce=2de06e751f22, datestamp=1674209430 (Jan 20 2023 10:10:30)
+0413.473 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0413.473 (0) Examining (for files) backup set with nonce=a3f29e01a38f, datestamp=1674139553 (Jan 19 2023 14:45:53)
+0413.473 (0) plugins: over retain limit (2); will delete this file entity
+0413.473 (0) themes: over retain limit (2); will delete this file entity
+0413.473 (0) uploads: over retain limit (2); will delete this file entity
+0413.473 (0) others: over retain limit (2); will delete this file entity
+0413.473 (0) Delete file: backup_2023-01-19-1545_Mon_agence_de_voyage_a3f29e01a38f-plugins.zip, service=googledrive
+0413.477 (0) Delete file: backup_2023-01-19-1545_Mon_agence_de_voyage_a3f29e01a38f-themes.zip, service=googledrive
+0413.480 (0) Delete file: backup_2023-01-19-1545_Mon_agence_de_voyage_a3f29e01a38f-uploads.zip, service=googledrive
+0413.483 (0) Delete file: backup_2023-01-19-1545_Mon_agence_de_voyage_a3f29e01a38f-others.zip, service=googledrive
+0415.089 (0) Google Drive: backup_2023-01-19-1545_Mon_agence_de_voyage_a3f29e01a38f-others.zip: Deletion successful
+0415.903 (0) Google Drive: backup_2023-01-19-1545_Mon_agence_de_voyage_a3f29e01a38f-uploads.zip: Deletion successful
+0416.624 (0) Google Drive: backup_2023-01-19-1545_Mon_agence_de_voyage_a3f29e01a38f-themes.zip: Deletion successful
+0417.393 (0) Google Drive: backup_2023-01-19-1545_Mon_agence_de_voyage_a3f29e01a38f-plugins.zip: Deletion successful
+0417.400 (0) This backup set is now empty; will remove from history
+0417.403 (0) Deleting log file (log.a3f29e01a38f.txt)
+0417.408 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0417.422 (0) Resume backup (93fe98e7372f, 0): finish run
+0417.431 (0) Decremented the semaphore (fd) by 1
+0417.437 (0) Semaphore (fd) unlocked
+0417.441 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0417.452 (0) The backup apparently succeeded and is now complete
+0417.459 (0) No email will/can be sent - the user has not configured an email address.
+0417.462 (0) La sauvegarde a apparemment réussi et est maintenant terminée

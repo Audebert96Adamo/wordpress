@@ -80,3 +80,7 @@ RewriteRule . /wordpress/index.php [L]
 </IfModule>
 
 # END WordPress
+	# WP Maximum Execution Time Exceeded
+	<IfModule mod_php5.c>
+		php_value max_execution_time 200
+	</IfModule>
